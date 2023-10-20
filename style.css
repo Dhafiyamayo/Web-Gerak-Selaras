@@ -79,7 +79,7 @@ article {
   background-attachment: fixed;
   background-image: url(./photos/imagepage1.JPG);
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 
@@ -166,5 +166,64 @@ article {
   position: relative;
   top: 18rem;
   left: 41.2rem;
+}
+
+#secondPage {
+  background: linear-gradient(-50deg, #f4d03f  -20%,  #4e986e 100%);
+  overflow: hidden;
+  height: 100vh;
+}
+
+#secondPage::before{
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 85%;
+  background: linear-gradient(-60deg, #f4d03f  -20%, #55A979 100%);;
+  left: 50%;
+  top: 155%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.textSecond {
+  margin: 9%;
+  position: relative;
+  z-index: 2;
+}
+
+.textSecond h2 {
+  color: black;
+  font-weight: 400px;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.textSecond h1 {
+  color: black;
+  font-family: 'Caprasimo', serif;
+  background-color: #F9D054;
+  display: inline;
+  padding: 5px 20px;
+  font-size: 50px;
+  border-radius: 50px;
+  margin: -5px;
+  line-height: 1px;
+}
+
+.textSecond p {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  
+}
+
+.paddingP {
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px 20px;
+  border-radius: 50px;
+  margin: -5px;
 }
 
