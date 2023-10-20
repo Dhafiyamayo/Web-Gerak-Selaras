@@ -1,4 +1,139 @@
 /* Google fonts */
-  @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Caprasimo&family=Chicle&family=Lemon&family=Orelega+One&family=Public+Sans:wght@200&family=Quicksand:wght@500&family=Roboto&family=Spicy+Rice&family=Young+Serif&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Caprasimo&family=Chicle&family=Lemon&family=Open+Sans:wght@300;400&family=Orelega+One&family=Public+Sans:wght@200&family=Quicksand:wght@500&family=Roboto&family=Spicy+Rice&family=Young+Serif&display=swap');
 
-  
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-container {
+  background: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  padding-block: 1rem;
+}
+
+.navigationBar ul {
+  list-style-type: none;
+  padding-right: 5rem;
+  text-align: right;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.navigationBar li {
+  display: inline;
+  margin: 15px;
+}
+
+.navigationBar ul li a {
+  text-decoration: none;
+  color: white;
+  border-radius: 999px;
+  transition: all .2s ease-in-out;
+}
+
+.navigationBar li:hover a {
+  color: #F9D054;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.headerLogo > img {
+  width: 400px;
+  height: 100px;
+  margin-left: 5rem;
+  align-items: flex-end;
+  margin-top: 0.2rem;
+}
+
+/* .headerLogo > img {
+  width:450px; 
+  margin: 15px;
+  padding-left: 2rem;
+  display: flex;
+  align-items: 700vh;
+  margin-top: 0;
+  margin-inline: auto;
+} */
+
+article {
+  height: 100vh;
+}
+
+#firstCover {
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-image: url(./photos/imagepage1.JPG);
+}
+
+#firstCover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.openingPage h1 {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  display: flex;
+  color: #B2EB9B;
+  font-size: 6rem;
+  font-family: 'Caprasimo', serif;
+  white-space: pre-line;
+  -webkit-text-stroke: 0.5px #275912;
+  text-stroke: 0.5px #275912;
+  padding-left: 2%;
+  text-shadow: 2px 2px 4px rgb(53, 26, 26);
+}
+
+.openingPage h3 {
+  position: relative;
+  top: 70%;
+  left: 6%;
+  display: flex;
+  color: white;
+  font-size: 2.7rem;
+  color: #F9D054;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 4px rgb(137, 121, 71);
+}
+
+.openingPage button {
+  position: relative;
+  top: 69%;
+  left: 6%;
+  display: flex;
+  background-color: #A63D2D;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 25px;
+  border: 2px solid white;
+}
+
+.openingPage button p {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
