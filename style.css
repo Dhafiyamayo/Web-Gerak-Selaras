@@ -19,6 +19,7 @@ body {
   justify-content: space-between;
   margin-inline: auto;
   padding-block: 1rem;
+  flex-wrap: wrap;
 }
 
 .navigationBar ul {
@@ -100,6 +101,7 @@ article {
   text-shadow: 2px 2px 4px rgb(53, 26, 26);
 }
 
+
 .openingPage h3 {
   position: relative;
   top: 70%;
@@ -114,7 +116,7 @@ article {
 
 .openingPage button {
   position: relative;
-  top: 69%;
+  top: 69.5%;
   left: 6%;
   display: flex;
   background-color: #A63D2D;
@@ -135,5 +137,11 @@ article {
   margin-bottom: 0;
 }
 
-
+.smile img{
+  width: 3rem;
+  height: auto;
+  position: relative;
+  top: 20rem;
+  left: 41rem;
+}
 
